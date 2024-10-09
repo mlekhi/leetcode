@@ -17,3 +17,8 @@ class Solution:
         return output
 
 # there has to have been a smarter way
+
+# 1. sorting (lowkey what i did)
+# 2. using a heap (thought of this but chose laziness) -- saves time but not space
+# 3. iterating through the counter to create a dictionary for each key with a particular count
+# ^^ bucketing solution -- bucket each number in its count
